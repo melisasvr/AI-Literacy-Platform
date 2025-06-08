@@ -273,14 +273,13 @@ For questions, suggestions, or issues:
 4. **Submit a pull request** for contributions
 
 ## 🌟 Acknowledgments
-- This platform was built with the goal of making AI education accessible, engaging, and ethically grounded. Special thanks to:
+- This platform was built to make AI education accessible, engaging, and ethically grounded. Special thanks to:
 - Educators who provided feedback on the learning module structure
 - AI ethics researchers who influenced the scenario design
 - The open-source community for inspiration and best practices
 
 ---
-**Ready to explore AI literacy?** Run `python ai_literacy.py` and start your journey! 🚀
+- **Ready to explore AI literacy?** Run `python ai_literacy.py` and start your journey! 🚀
 
 ## 📞 Contact
-
-For more information about this project or to explore collaboration opportunities, please don't hesitate to reach out.
+- For more information about this project or to explore collaboration opportunities, please don't hesitate to reach out.
