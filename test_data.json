@@ -1,0 +1,110 @@
+{
+  "users": {
+    "f2e25440-8611-4097-a56e-a00d398c2f41": {
+      "id": "f2e25440-8611-4097-a56e-a00d398c2f41",
+      "username": "test_student",
+      "email": "student@test.com",
+      "role": "student",
+      "created_at": "2025-06-08T15:29:59.240509",
+      "learning_preferences": {},
+      "progress": {
+        "c8a7e56a-e976-4707-916d-3e8c951939ea": 85.0
+      }
+    },
+    "e0c101e6-33f5-4d40-9275-1b8db414c2dc": {
+      "id": "e0c101e6-33f5-4d40-9275-1b8db414c2dc",
+      "username": "test_teacher",
+      "email": "teacher@test.com",
+      "role": "teacher",
+      "created_at": "2025-06-08T15:29:59.240509",
+      "learning_preferences": {},
+      "progress": {}
+    }
+  },
+  "modules": {
+    "c8a7e56a-e976-4707-916d-3e8c951939ea": {
+      "id": "c8a7e56a-e976-4707-916d-3e8c951939ea",
+      "title": "Introduction to Artificial Intelligence",
+      "description": "Foundational concepts of AI, machine learning, and their real-world applications",
+      "category": "ai_basics",
+      "difficulty": "beginner",
+      "prerequisites": [],
+      "content_blocks": [
+        {
+          "type": "text",
+          "title": "What is AI?",
+          "content": "Artificial Intelligence refers to computer systems that can perform tasks typically requiring human intelligence..."
+        },
+        {
+          "type": "interactive",
+          "title": "AI vs Machine Learning vs Deep Learning",
+          "content": "Interactive diagram showing the relationship between these concepts"
+        },
+        {
+          "type": "video",
+          "title": "AI in Daily Life",
+          "content": "Examples of AI applications you encounter every day"
+        }
+      ],
+      "scenarios": [],
+      "assessment_questions": [
+        {
+          "question": "Which of the following is NOT a type of machine learning?",
+          "options": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Quantum Learning"
+          ],
+          "correct": 3,
+          "explanation": "Quantum Learning is not a recognized type of machine learning paradigm."
+        }
+      ],
+      "estimated_duration": 30
+    },
+    "912ae46d-a9b3-4bed-8292-d5b80d9fd86b": {
+      "id": "912ae46d-a9b3-4bed-8292-d5b80d9fd86b",
+      "title": "AI Ethics and Bias",
+      "description": "Understanding ethical implications, bias detection, and responsible AI use",
+      "category": "ethics_bias",
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "c8a7e56a-e976-4707-916d-3e8c951939ea"
+      ],
+      "content_blocks": [
+        {
+          "type": "case_study",
+          "title": "Algorithmic Bias in Hiring",
+          "content": "Real-world examples of how AI systems can perpetuate discrimination"
+        },
+        {
+          "type": "interactive",
+          "title": "Bias Detection Exercise",
+          "content": "Interactive tool to identify potential bias in AI systems"
+        }
+      ],
+      "scenarios": [],
+      "assessment_questions": [],
+      "estimated_duration": 30
+    }
+  },
+  "user_progress": {
+    "f2e25440-8611-4097-a56e-a00d398c2f41": {
+      "c8a7e56a-e976-4707-916d-3e8c951939ea": {
+        "user_id": "f2e25440-8611-4097-a56e-a00d398c2f41",
+        "module_id": "c8a7e56a-e976-4707-916d-3e8c951939ea",
+        "completion_percentage": 85.0,
+        "time_spent": 60,
+        "last_accessed": "2025-06-08T15:29:59.240509",
+        "quiz_scores": [
+          78,
+          82,
+          88,
+          85
+        ],
+        "scenario_completions": []
+      }
+    },
+    "e0c101e6-33f5-4d40-9275-1b8db414c2dc": {}
+  }
+}
